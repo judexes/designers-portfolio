@@ -64,6 +64,9 @@ body::-webkit-scrollbar-thumb {
 .navbar-main {
     background-color: #2862F7;
 }
+.navbar-main {
+    background-color: #2862F7;
+}
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
         background-color: #0033b6;
@@ -81,5 +84,15 @@ body::-webkit-scrollbar-thumb {
 }
 .splash {
 
-    padding: 15rem 0rem;
+    padding: 8rem 0rem;
+}
+
+.splash .btn {
+    border-radius: 3rem;
+    font-size: smaller;
+}
+
+.splash p {
+    font-size: 18px;
+    line-height: 25px;
 }

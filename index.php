@@ -51,7 +51,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Hire me</a>
                         </li>
-                        <span class="d-block d-sm-none" id="">
+                        <span class="d-block d-sm-none socials" id="">
                             <img src="img/twitter.png" alt="image">
                             <img src="img/twitter.png" alt="image">
                             <img src="img/twitter.png" alt="image">
@@ -59,13 +59,12 @@
                         </span>
                     </ul>
                 </div>
-                <a class="navbar-brand mr-auto mr-lg-0 d-none d-sm-block" href="#">
-                    
+                <span class=" mr-auto mr-lg-0 d-none d-sm-block socials" id="">
                     <img src="img/twitter.png" alt="image">
-                    <img src="img/twitter.png" alt="image">
-                    <img src="img/twitter.png" alt="image">
-                    <img src="img/twitter.png" alt="image">
-                </a>
+                    <img src="img/facebook.png" alt="image">
+                    <img src="img/behance.png" alt="image">
+                    <img src="img/instagram.png" alt="image">
+                </span>
                 <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
                 </button>
