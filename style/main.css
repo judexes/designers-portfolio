@@ -1,9 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 html, body {
     overflow-x: hidden;
    /* Prevent scroll on narrow devices */
 }
 body {
     margin-top: 66px;
+    font-family: Lato;
 }
 /* SCROLL BAR */
 body::-webkit-scrollbar {
