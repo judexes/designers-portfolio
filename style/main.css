@@ -2,9 +2,21 @@ html, body {
     overflow-x: hidden;
    /* Prevent scroll on narrow devices */
 }
-/* ------------------------- NAV SCROLLER ----------------------- */
 body {
-    padding-top: 66px;
+    margin-top: 66px;
+}
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #01707100;  
+        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(92, 139, 221, 0.48);    /* color of the scroll thumb */
+    border-radius:50%;           /* roundness of the scroll thumb */
+    margin-right:1px;     
 }
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
@@ -29,55 +41,6 @@ body {
         transform: translateX(-100%);
    }
 }
-.nav-scroller {
-    position: relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
-}
-.nav-scroller .nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    color: rgba(255, 255, 255, .75);
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-}
-.nav-underline .nav-link {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    font-size: .875rem;
-    color: #6c757d;
-}
-.nav-underline .nav-link:hover {
-    color: #007bff;
-}
-.nav-underline .active {
-    font-weight: 500;
-    color: #343a40;
-}
-.text-white-50 {
-    color: rgba(255, 255, 255, .5);
-}
-.bg-purple {
-    background-color: #6f42c1;
-}
-.lh-100 {
-    line-height: 1;
-}
-.lh-125 {
-    line-height: 1.25;
-}
-.lh-150 {
-    line-height: 1.5;
-}
-/* -------- END NAV SCROLLER ------ */
-
 
 /*--------------- HERO --------------*/
 .heading-box h2{
@@ -92,24 +55,6 @@ body {
     color: #fff;
     text-align: center;
     transform: translateY(-50%);
-}
-
-html, body {
-    overflow-x: hidden;
-   /* Prevent scroll on narrow devices */
-}
-/* SCROLL BAR */
-body::-webkit-scrollbar {
-    width: 6px;               /* width of the entire scrollbar */
-}
-body::-webkit-scrollbar-track {
-    background: #01707100;  
-        /* color of the tracking area */
-}
-body::-webkit-scrollbar-thumb {
-    background-color: rgba(92, 139, 221, 0.48);    /* color of the scroll thumb */
-    border-radius:50%;           /* roundness of the scroll thumb */
-    margin-right:1px;     
 }
 .navbar-main {
     background-color: #2862F7;

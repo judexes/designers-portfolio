@@ -76,7 +76,7 @@
             <div class="splash">
                 <div class="container">
                     <h1 class="display-3">Hello, I’m Folio</h1>
-                    <p class="">Let’s Create Something new and awesome Togeather. I can help you create positive and permanent changes in your business.
+                    <p class="">Let’s Create Something new and awesome Together.<br>I can help you create positive and permanent changes<br>in your business.
                     </p>
                     <p><a class="btn btn-primary btn-lg text-uppercase" href="#" role="button">download resume</a></p>
                 </div>
