@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-html, body {
-    overflow-x: hidden;
-   /* Prevent scroll on narrow devices */
+html {
+    scroll-behavior: smooth;
+
 }
 body {
     margin-top: 66px;
     font-family: Lato;
+    overflow-x: hidden;
+    background-color: #E5E5E5;
 }
 /* SCROLL BAR */
 body::-webkit-scrollbar {
@@ -89,7 +91,7 @@ body::-webkit-scrollbar-thumb {
 
     padding: 8rem 0rem;
 }
-.splash .btn {
+.btn {
     /* border-radius: 3rem; */
     font-size: x-small;
     padding: .6rem 1rem;
@@ -111,4 +113,50 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     position: relative;
     min-height: 400px;
+}
+.about-us-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.profile img {
+    max-width: 60%;
+}
+/* On screens that are 770px wide or less*/
+@media screen and (max-width: 770px) {
+    .profile img {
+        max-width: 100%;
+    }
+}
+.title-description {
+    color: #3D3C3C;
+    font-size: smaller;
+}
+.services-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.portfolio-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.btn {
+    min-width: max-content;
+}
+.experience-section {
+    background-image: url(../img/experience.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100px;
+}
+.experience-shade {
+    background-image: url(../img/experience-shade.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100px;
 }
