@@ -51,15 +51,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Hire me</a>
                         </li>
-                        <span class="d-block d-sm-none socials" id="">
-                            <img src="img/twitter.png" alt="image">
-                            <img src="img/twitter.png" alt="image">
-                            <img src="img/twitter.png" alt="image">
-                            <img src="img/twitter.png" alt="image">
+                        <span class="align-bottom d-block d-sm-none fixed-bottom mb-5 socials text-center" id="">
+                    <img src="img/twitter.png" alt="image">
+                    <img src="img/facebook.png" alt="image">
+                    <img src="img/behance.png" alt="image">
+                    <img src="img/instagram.png" alt="image">
                         </span>
                     </ul>
                 </div>
-                <span class=" mr-auto mr-lg-0 d-none d-sm-block socials" id="">
+                <span class=" mr-auto mr-lg-0 d-none d-sm-block socials " id="">
                     <img src="img/twitter.png" alt="image">
                     <img src="img/facebook.png" alt="image">
                     <img src="img/behance.png" alt="image">
