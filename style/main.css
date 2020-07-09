@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
         position: fixed;
-        top: 56px;
+        top: 66px;
        /* Height of navbar */
         bottom: 0;
         left: 100%;
@@ -63,14 +63,39 @@ body::-webkit-scrollbar-thumb {
 }
 .navbar-main {
     background-color: #2862F7;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
-.navbar-main {
-    background-color: #2862F7;
+.navbar-main li {
+    font-size: 14px;
 }
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
         background-color: #0033b6;
     }
+    .navbar-main {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+.navbar-main .socials img {
+    margin-right: .6rem;
+}
+.splash {
+
+    padding: 8rem 0rem;
+}
+.splash .btn {
+    /* border-radius: 3rem; */
+    font-size: smaller;
+}
+.btn-primary {
+    background-color: #2862f7;
+    border-color: #2862f7;
+}
+.splash p {
+    font-size: 18px;
+    line-height: 25px;
 }
 /* HERO */
 .hero-section {
@@ -81,18 +106,4 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     position: relative;
     min-height: 400px;
-}
-.splash {
-
-    padding: 8rem 0rem;
-}
-
-.splash .btn {
-    border-radius: 3rem;
-    font-size: smaller;
-}
-
-.splash p {
-    font-size: 18px;
-    line-height: 25px;
 }
