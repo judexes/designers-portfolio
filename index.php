@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row text-center justify-content-center font-weight-bold">
                     <div class="col-sm-3 col-md-4">
                         <div class=" m-3 p">
