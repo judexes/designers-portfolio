@@ -124,21 +124,21 @@
             </div>
             <div class="container-fluid">
                 <div class="row text-center justify-content-center font-weight-bold">
-                    <div class="col-sm-3">
-                        <div class=" m-3">
-                            <img class="img-fluid" src="img/service1.png">
+                    <div class="col-sm-3 col-md-4">
+                        <div class=" m-3 p">
+                            <img class="img-fluid pl-3 pr-3 pt-3" src="img/service1.png">
                             <p class="mt-2">Web Ui Design</p>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 col-md-4">
                         <div class="m-3">
-                            <img class="img-fluid" src="img/service2.png">
+                            <img class="img-fluid pl-3 pr-3 pt-3" src="img/service2.png">
                             <p class="mt-2">Mobile Ui Design</p>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 col-md-4">
                         <div class="m-3">
-                            <img class="img-fluid" src="img/service3.png">
+                            <img class="img-fluid pl-3 pr-3 pt-3" src="img/service3.png">
                             <p class="mt-2">Branding Design</p>
                         </div>
                     </div>
@@ -150,13 +150,13 @@
         <section class="portfolio-section">
             <div class="container">
                 <div class="row text-left justify-content-center font-weight-bold">
-                    <div class="col-sm-5">
+                    <div class="col-sm-6 col-md-5">
                         <div class="m-3">
                             <img class="img-fluid" src="img/portfolio1.png">
                             <p class="mt-2">Branding Design</p>
                         </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-6 col-md-5">
                         <div class="m-3">
                             <div class="">
                                 <h6 class="subtitle font-weight-bold">Portfolio</h6>
@@ -167,13 +167,13 @@
                             <p class="mt-2 ">Mobile Ui Design</p>
                         </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-6 col-md-5">
                         <div class="m-3">
                             <img class="img-fluid" src="img/portfolio3.png">
                             <p class="mt-2">Branding Design</p>
                         </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-6 col-md-5">
                         <div class="m-3">
                             <div class="d-none d-sm-block">
                                 <p class="title-description font-weight-normal">&nbsp;</p>
@@ -185,52 +185,75 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-4">
+                <div class="row justify-content-center mt-sm-5">
+                    <div class="col-4 col-sm-2 col-md-1 col-lg-1  col-xl-1  ">
                         <button type="button" class="btn btn-primary btn-lg text-uppercase">explore more</button>
                     </div>
                 </div>
             </div>
-            <div id="products"></div>
+            <div id="testimonial"></div>
         </section>
         <!-- EXPERIENCE SECTION -->
         <section class="experience-section">
             <div class="experience-shade">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-3">col</div>
-                        <div class="col-sm-3">col</div>
-                        <div class="col-sm-3">col</div>
-                        <div class="col-sm-3">col</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <p>Happy Clients</p>
-                            <p class="counter">120</p>
+                
+                <div class="container p-3">
+                    <div class="row text-center text-light">
+                        <div class="col-sm-3">
+                            <div class="counter">
+                                <p class="count-text ">Happy Clients</p>
+                                <h2 class="timer count-title count-number font-weight-bold" data-to="120" data-speed="1500"></h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="counter">
+                                <p class="count-text ">Completed Projects</p>
+                                <h2 class="timer count-title count-number font-weight-bold" data-to="220" data-speed="1500"></h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="counter">
+                                <p class="count-text ">Tickets Closed</p>
+                                <h2 class="timer count-title count-number font-weight-bold" data-to="140" data-speed="1500"></h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="counter">
+                                <p class="count-text ">Speaker Conferences</p>
+                                <h2 class="timer count-title count-number font-weight-bold" data-to="12" data-speed="1500"></h2>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <p>Happy Clients</p>
-                        <p class="counter">120</p>
-                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <p>Happy Clients</p>
-                    <p class="counter">120</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <p>Happy Clients</p>
-                <p class="counter">120</p>
             </div>
         </div>
-    </div>
-</div>
-</section>
+    </section>
+    <!-- TESTIMONIAL SECTION -->
+    <section class="testimonial-section">
+        <div class="testimonial-section-header container text-center pt-5 pb-4">
+            <h2 class="title font-weight-bold">What Clients Say About Me</h2>
+            <p class="title-description font-weight-normal">Find reviews written by customer. Let’s Create Something new and awesome Togeather.</p>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-shade">
+                <div class="container profile">
+                    <div class="row justify-content-center">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img class="img-fluid" src="img/profile-icon.png">
+                                <p class="card-text">“Excellent design and communication skill, fast turnaround revison.He improves on your work massively.”</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="javascript/vendors/bootstrap.bundle.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="javascript/vendors/bootstrap.bundle.js"></script>
-<script src="javascript/script.js"></script></body>
 </html>
