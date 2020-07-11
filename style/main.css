@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
        /* Height of navbar */
         bottom: 0;
         left: 100%;
-        width: 100%;
+        width: 70%;
         padding-right: 1rem;
         padding-left: 1rem;
         overflow-y: auto;
@@ -48,6 +48,7 @@ body::-webkit-scrollbar-thumb {
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%);
         /* margin-left: 30%; */
+        width: 70%;
    }
 }
 
