@@ -47,7 +47,7 @@ body::-webkit-scrollbar-thumb {
         visibility: visible;
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%);
-        margin-left: 30%;
+        /* margin-left: 30%; */
    }
 }
 
