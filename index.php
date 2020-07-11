@@ -238,7 +238,7 @@
             <div class="testimonial-shade">
                 <div class="container profile">
                     <div class="row justify-content-center">
-                        <div class="card">
+                        <div class="col-sm-5 col-lg-4 card">
                             <div class="card-body text-center">
                                 <img class="img-fluid" src="img/profile-icon.png">
                                 <p class="card-text">“Excellent design and communication skill, fast turnaround revison.He improves on your work massively.”</p>
