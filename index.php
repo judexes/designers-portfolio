@@ -244,11 +244,11 @@
                 <div class="container profile">
                     <div class="row justify-content-center">
                         <div class="col-sm-5 col-lg-4 card">
-                            <div class="card-body text-center">
+                            <div class="card-body text-center card-text">
                                 <img class="img-fluid" src="img/profile-icon.png">
-                                <p class="card-text">“Excellent design and communication skill, fast turnaround revison.He improves on your work massively.”</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <p class="mt-3">“Excellent design and communication skill, fast turnaround revison.He improves on your work massively.”</p>
+                                <p class="font-weight-bold mb-0">Mike Glen</p>
+                                <p class="font-weight-lighter">Glen Associates</p>
                             </div>
                         </div>
                     </div>

@@ -236,3 +236,6 @@ body::-webkit-scrollbar-thumb {
 .testimonial .card {
     min-height: 250px;
 }
+.testimonial .card-text {
+    font-size: small;
+}
