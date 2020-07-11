@@ -94,6 +94,14 @@ body::-webkit-scrollbar-thumb {
 
     padding: 8rem 0rem;
 }
+@media (max-width: 414px) {
+    .splash {
+        text-align: center!important;
+    }
+    .hello-name {
+        font-size: 2.5rem;
+    }
+}
 .btn {
     /* border-radius: 3rem; */
     font-size: x-small;
@@ -115,11 +123,10 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 400px;
-    
+    min-height: 400px;   
 }
 .splash {
-    background-color: #41579182;
+    background-color: #d3d7e282;
     background-repeat: repeat-x;
     background-position: center;
     background-repeat: no-repeat;

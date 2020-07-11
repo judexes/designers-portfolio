@@ -20,7 +20,7 @@
         
     </head>
     <body class="bg-light">
-        <div id="top"></div>
+        <div id="top offcanvas-close"></div>
         <!-- MENU SECTION -->
         <section class="">
             <!-- ------------------------ MAIN NAV ----------------------- -->
@@ -79,7 +79,7 @@
         <section class="hero-section">
             <div class="splash">
                 <div class="container">
-                    <h1 class="display-3 font-weight-bolder">Hello, I’m Folio</h1>
+                    <h1 class="display-3 font-weight-bolder hello-name">Hello, I’m Folio</h1>
                     <p class="">Let’s Create Something new and awesome Together.<br>I can help you create positive and permanent changes<br>in your business.
                     </p>
                     <p><a class="btn btn-primary btn-lg text-uppercase" href="#" role="button">download resume</a></p>
@@ -251,7 +251,6 @@
             </div>
         </div>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="javascript/vendors/bootstrap.bundle.js"></script>
     <script src="javascript/script.js"></script>
