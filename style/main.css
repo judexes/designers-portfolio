@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 400px;   
+    min-height: 600px;   
 }
 .splash {
     background-color: #d3d7e282;
@@ -138,7 +138,7 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 100px;
+    min-height: inherit;
 }
 .about-us-section {
     padding-bottom: 3rem;
