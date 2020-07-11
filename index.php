@@ -79,8 +79,8 @@
         <section class="hero-section">
             <div class="splash">
                 <div class="container">
-                    <h1 class="display-3 font-weight-bolder hello-name">Hello, I’m Folio</h1>
-                    <p class="">Let’s Create Something new and awesome Together.<br>I can help you create positive and permanent changes<br>in your business.
+                    <h1 class="display-3 font-weight-bolder hello-name">Hello, I’m Folio.</h1>
+                    <p class="">Let’s create something new and awesome together.<br>I can help you create positive and permanent changes<br>in your business.
                     </p>
                     <p><a class="btn btn-primary btn-lg text-uppercase" href="#" role="button">download resume</a></p>
                 </div>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row text-center justify-content-center font-weight-bold">
                     <div class="col-sm-3 col-md-4">
                         <div class=" m-3 p">
@@ -152,13 +152,18 @@
                 <div class="row text-left justify-content-center font-weight-bold">
                     <div class="col-sm-6 col-md-5">
                         <div class="m-3">
+                            <div class="d-block d-sm-none">
+                                <h6 class="subtitle font-weight-bold">Portfolio</h6>
+                                <h2 class="title font-weight-bold">Few selected works</h5>
+                                <p class="title-description font-weight-normal">Let’s Create Something new and awesome Togeather.</p>
+                            </div>
                             <img class="img-fluid" src="img/portfolio1.png">
                             <p class="mt-2">Branding Design</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5">
                         <div class="m-3">
-                            <div class="">
+                            <div class=" d-none d-sm-block">
                                 <h6 class="subtitle font-weight-bold">Portfolio</h6>
                                 <h2 class="title font-weight-bold">Few selected works</h5>
                                 <p class="title-description font-weight-normal">Let’s Create Something new and awesome Togeather.</p>
