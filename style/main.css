@@ -182,13 +182,19 @@ body::-webkit-scrollbar-thumb {
     min-width: max-content;
 }
 .experience-section {
+  /* The image used */
     background-image: url(../img/experience.png);
-    background-repeat: repeat-x;
+
+  /* Full height */
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     min-height: 100px;
+
 }
 .experience-shade {
     background-image: url(../img/experience-shade.png);
