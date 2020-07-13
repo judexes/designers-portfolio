@@ -127,7 +127,7 @@ function scrollFunction() {
 $(window).on('load', function() {
 	 setTimeout(function(){
 	   $('#subscribeModal').modal('show');
-   }, 1000);
+   }, 4000);
    setTimeout(function(){
 	   $('.subscribeModal-lg').modal('show');
    }, 5000);

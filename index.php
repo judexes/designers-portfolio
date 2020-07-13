@@ -20,7 +20,7 @@
         
     </head>
     <body class="bg-light">
-        <?php include "dbconn.php"; // Using database connection file here ?>
+        <?php include "includes/dbconn.php"; // Using database connection file here ?>
         <div id="top offcanvas-close"></div>
         <!-- MENU SECTION -->
         <section class="">
