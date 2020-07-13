@@ -117,8 +117,8 @@
                 <div class="row services">
                     <div class="px-3 py-3 pb-md-4 mx-auto text-center col-md-8 offset-md-2 ">
                         <h6 class="subtitle font-weight-bold">Services</h6>
-                        <h2 class="title font-weight-bold">From Concept To Creation</h5>
-                        <p class="title-description ml-4 mr-4">Let’s Create Something new and awesome Togeather.<br>I can help you create positive and permanent changes in your life..</p>
+                        <h2 class="title font-weight-bold">From concept to creation</h5>
+                        <p class="title-description ml-4 mr-4">Let’s create something new and awesome together.<br>I can help you create positive and permanent changes in your life..</p>
                     </div>
                 </div>
             </div>
@@ -256,6 +256,50 @@
             </div>
         </div>
     </section>
+    <!-- NEWSLETTER SECTION -->
+    <section class="home-newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="single">
+                        <h2>Subscribe to our Newsletter</h2>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-theme" type="submit">Subscribe</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- subscribe Modal -->
+<p class="text-center h1 mt-5 pt-5">2nd time <span id="Reloadpage" class="badge badge-success" title="click to Reload page">Refresh</span> your page to see the changes</p>
+<p class="text-muted text-center">Wait! medium Modal will load in 5 seconds and large modal will load in 10 seconds.</p>
+<div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="top-strip"></div>
+                <a class="h2" href="https://www.fiverr.com/share/qb8D02" target="_blank">Sunlimetech</a>
+                <h3 class="pt-5 mb-0 text-secondary">Newsletter</h3>
+                <p class="pb-1 text-muted"><small>Sign up to update with our latest news and products.</small></p>
+                <form>
+                    <div class="input-group mb-3 w-75 mx-auto">
+                      <input type="email" class="form-control" placeholder="sunlimetech@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+                      </div>
+                    </div>
+                </form>
+                <p class="pb-1 text-muted"><small>Your email is safe with us. We won't spam.</small></p>
+                <div class="bottom-strip"></div>
+            </div>
+        </div>
+    </div>
+</div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="javascript/vendors/bootstrap.bundle.js"></script>
     <script src="javascript/script.js"></script>
