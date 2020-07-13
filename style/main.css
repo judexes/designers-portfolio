@@ -123,16 +123,22 @@ body::-webkit-scrollbar-thumb {
 }
 /* HERO */
 .hero-section {
+  /* The image used */
     background-image: url(../img/hero.png);
-    background-repeat: repeat-x;
+
+  /* Full height */
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    min-height: 600px;   
+    min-height: 600px;
+
 }
 .splash {
-    background-color: #d3d7e282;
+    /*background-color: #d3d7e282;*/
     background-repeat: repeat-x;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,7 +162,7 @@ body::-webkit-scrollbar-thumb {
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {
     .title {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -201,7 +207,7 @@ body::-webkit-scrollbar-thumb {
 .experience {
     padding: 2rem 0rem;
 }
-.testimonial {
+/*.testimonial {
     background-image: url(../img/testimonial.png);
     background-repeat: repeat-x;
     background-position: center;
@@ -209,6 +215,21 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     position: relative;
     min-height: 400px;
+}*/
+.testimonial-section .parallax {
+  /* The image used */
+    background-image: url(../img/testimonial.png);
+
+  /* Full height */
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+
 }
 .testimonial-shade {
     /* background-image: url(../img/testimonial-shade.png); */
@@ -239,3 +260,7 @@ body::-webkit-scrollbar-thumb {
 .testimonial .card-text {
     font-size: small;
 }
+
+
+
+

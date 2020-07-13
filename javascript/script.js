@@ -110,3 +110,6 @@ jQuery(function ($) {
 	$this.countTo(options);
   }
 });
+
+
+// IMAGE PARALLAX EFFECT

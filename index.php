@@ -110,7 +110,7 @@
             </div>
         </section>
         <!-- SERVICES SECTION -->
-        <section class="services-section">
+        <section class="services-section ">
             
             <div class="container text-center">
                 
@@ -239,14 +239,14 @@
             <h2 class="title font-weight-bold">What Clients Say About Me</h2>
             <p class="title-description font-weight-normal">Find reviews written by customer. Let’s Create Something new and awesome Togeather.</p>
         </div>
-        <div class="testimonial">
+        <div class="testimonial parallax">
             <div class="testimonial-shade">
                 <div class="container profile">
                     <div class="row justify-content-center">
                         <div class="col-sm-5 col-lg-4 card">
                             <div class="card-body text-center card-text">
                                 <img class="img-fluid" src="img/profile-icon.png">
-                                <p class="mt-3">“Excellent design and communication skill, fast turnaround revison.He improves on your work massively.”</p>
+                                <p class="mt-3">“Excellent design and communication skill, fast turnaround revison. He improves on your work massively.”</p>
                                 <p class="font-weight-bold mb-0">Mike Glen</p>
                                 <p class="font-weight-lighter">Glen Associates</p>
                             </div>
