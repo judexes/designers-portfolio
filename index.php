@@ -25,8 +25,8 @@
         <section class="">
             <!-- ------------------------ MAIN NAV ----------------------- -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-main ">
-                <a class="navbar-brand mr-auto mr-lg-0" href="#">
-                    <img src="img/logo.png" alt="Logo Image">
+                <a class="navbar-brand mr-auto mr-lg-0" href="#" id="" style="    min-width: 80px;">
+                    <img src="img/logo.png" alt="Logo Image" id="logo">
                 </a>
                 <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto text-uppercase mx-auto">
@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row text-center justify-content-center font-weight-bold">
                     <div class="col-sm-3 col-md-4">
                         <div class=" m-3 p">

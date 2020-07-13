@@ -8,7 +8,7 @@ html {
 
 }
 body {
-    margin-top: 66px;
+    margin-top: 62px;
     font-family: Lato;
     overflow-x: hidden;
     background-color: #E5E5E5;
@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
    }
 }
 
-/*--------------- HERO --------------*/
+
 .heading-box h2{
     width:100%;
     color: red;
@@ -95,6 +95,12 @@ body::-webkit-scrollbar-thumb {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.67);
+}
+
+
+#logo {
+  transition: 0.2s;
+  width: 80px;
 }
 .splash {
 
@@ -194,7 +200,6 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100px;
-
 }
 .experience-shade {
     background-image: url(../img/experience-shade.png);
@@ -207,8 +212,8 @@ body::-webkit-scrollbar-thumb {
     min-height: 100px;
 }
 .experience-section p {
-        margin-top: 0;
-        margin-bottom: 0.3rem;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
 }
 .experience {
     padding: 2rem 0rem;
