@@ -20,12 +20,13 @@
         
     </head>
     <body class="bg-light">
+        <?php include "dbconn.php"; // Using database connection file here ?>
         <div id="top offcanvas-close"></div>
         <!-- MENU SECTION -->
         <section class="">
             <!-- ------------------------ MAIN NAV ----------------------- -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-main ">
-                <a class="navbar-brand mr-auto mr-lg-0" href="#" id="" style="    min-width: 80px;">
+                <a class="navbar-brand mr-auto mr-lg-0 reload-page" href="#" id="Reloadpage" style="min-width: 80px;">
                     <img src="img/logo.png" alt="Logo Image" id="logo">
                 </a>
                 <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
@@ -257,49 +258,52 @@
         </div>
     </section>
     <!-- NEWSLETTER SECTION -->
-    <section class="home-newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="single">
-                        <h2>Subscribe to our Newsletter</h2>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-theme" type="submit">Subscribe</button>
-                            </span>
+    <section class="newsletter-section">
+        <div class="home-newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single">
+                            <h2>Subscribe to our Newsletter</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control text-center" placeholder="Enter your email">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-theme" type="submit">Subscribe</button>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    
-<!-- subscribe Modal -->
-<p class="text-center h1 mt-5 pt-5">2nd time <span id="Reloadpage" class="badge badge-success" title="click to Reload page">Refresh</span> your page to see the changes</p>
-<p class="text-muted text-center">Wait! medium Modal will load in 5 seconds and large modal will load in 10 seconds.</p>
-<div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="top-strip"></div>
-                <a class="h2" href="https://www.fiverr.com/share/qb8D02" target="_blank">Sunlimetech</a>
-                <h3 class="pt-5 mb-0 text-secondary">Newsletter</h3>
-                <p class="pb-1 text-muted"><small>Sign up to update with our latest news and products.</small></p>
-                <form>
-                    <div class="input-group mb-3 w-75 mx-auto">
-                      <input type="email" class="form-control" placeholder="sunlimetech@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" required>
-                      <div class="input-group-append">
-                        <button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
-                      </div>
+        
+        <!-- subscribe Modal -->
+        <p class="text-muted text-center d-none">Wait! medium Modal will load in 1 seconds and large modal will load in 5 seconds.</p>
+        <div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="top-strip"></div>
+                        <a href="#">
+                            <img src="img/logo.png" alt="Logo Image">
+                        </a>
+                        <h3 class="pt-5 mb-0 text-secondary">Newsletter</h3>
+                        <p class="pb-1 text-muted"><small>Sign up to update with our latest news and products.</small></p>
+                        <form>
+                            <div class="input-group mb-3 w-75 mx-auto">
+                                <input type="email" class="form-control" placeholder="judeokoroafor@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="pb-1 text-muted"><small>Your email is safe with us. We won't spam.</small></p>
+                        <div class="bottom-strip"></div>
                     </div>
-                </form>
-                <p class="pb-1 text-muted"><small>Your email is safe with us. We won't spam.</small></p>
-                <div class="bottom-strip"></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="javascript/vendors/bootstrap.bundle.js"></script>
     <script src="javascript/script.js"></script>

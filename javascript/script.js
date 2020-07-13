@@ -123,15 +123,18 @@ function scrollFunction() {
   }
 }
 
-
+// Subscribe Pop up
 $(window).on('load', function() {
 	 setTimeout(function(){
 	   $('#subscribeModal').modal('show');
-   }, 5000);
+   }, 1000);
    setTimeout(function(){
 	   $('.subscribeModal-lg').modal('show');
-   }, 10000);
+   }, 5000);
 });
+
+
+// RELOAD PAGE
 $('#Reloadpage').click(function() {
     location.reload();
 }); 
