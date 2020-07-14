@@ -270,54 +270,42 @@ body::-webkit-scrollbar-thumb {
     font-size: small;
 }
 
-
-
-
 .home-newsletter {
-padding: 80px 0;
-background: #2162ae;
+    padding: 80px 0;
+    background: #2162ae;
 }
-
 .home-newsletter .single {
-max-width: 650px;
-margin: 0 auto;
-text-align: center;
-position: relative;
-z-index: 2; }
-.home-newsletter .single h2 {
-font-size: 22px;
-color: white;
-text-transform: uppercase;
-margin-bottom: 40px; }
-.home-newsletter .single .form-control {
-height: 50px;
-background:#fff;
-border-color: transparent;
-border-radius: 20px 0 0 20px; }
-.home-newsletter .single .form-control:focus {
-box-shadow: none;
-border-color: #243c4f; }
-.home-newsletter .single .btn {
-min-height: 50px; 
-border-radius: 0 20px 20px 0;
-background: #243c4f;
-color: #fff;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
 }
-.newsletter-section .btn.focus, 
-.newsletter-section .btn:focus {
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.home-newsletter .single .form-control {
+    height: 50px;
+    background:#fff;
+    border-color: transparent;
+    border-radius: 30px 0 0 30px;
+}
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 30px 30px 0;
+    background: #243c4f;
+    color: #fff;
+}
+.newsletter-section .btn.focus, .newsletter-section .btn:focus {
     box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
 }
-
-
-
-
-
-
-
-
-
-
-
 #subscribeModal .modal-content{
     overflow:hidden;
 }

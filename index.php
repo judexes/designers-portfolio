@@ -262,15 +262,28 @@
         <div class="home-newsletter">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-12">
                         <div class="single">
-                            <h2>Subscribe to our Newsletter</h2>
-                            <div class="input-group">
-                                <input type="email" class="form-control text-center" placeholder="Enter your email">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-theme" type="submit">Subscribe</button>
-                                </span>
-                            </div>
+                            <form method="post" action="">
+                                <h2>Subscribe to our Newsletter</h2>
+                                <div class="input-group">
+                                    <input  type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
+                                    <span class="input-group-btn">
+                                        <input type="submit" name="send" class="btn btn-theme"
+                                        value="Subscribe">
+                                    </span>
+                                </div>
+                                
+                <div id="statusMessage"> 
+                    <?php
+                    if (! empty($message)) {
+                        ?>
+                        <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+                    <?php
+                    }
+                    ?>
+                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -280,20 +293,20 @@
         <!-- subscribe Modal -->
         <p class="text-muted text-center d-none">Wait! medium Modal will load in 1 seconds and large modal will load in 5 seconds.</p>
         <div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-md" role="document">
+            <div class="modal-dialog modal-md" role="document" style="margin-top: 5rem;">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="top-strip"></div>
                         <a href="#">
                             <img src="img/logo.png" alt="Logo Image">
                         </a>
-                        <h3 class="pt-5 mb-0 text-secondary">Newsletter</h3>
+                        <h3 class="pt-5 mb-0 text-secondary">Coming soon</h3>
                         <p class="pb-1 text-muted"><small>Sign up to update with our latest news and products.</small></p>
-                        <form>
+                        <form method="post" action="">
                             <div class="input-group mb-3 w-75 mx-auto">
-                                <input type="email" class="form-control" placeholder="judeokoroafor@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                                <input type="email" class="form-control" placeholder="judeokoroafor@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" name="userEmail" id="userEmail" required>
                                 <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+                                    <input class="btn btn-primary" type="submit" name="send" value="Subscribe">
                                 </div>
                             </div>
                         </form>

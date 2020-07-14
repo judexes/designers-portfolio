@@ -127,10 +127,10 @@ function scrollFunction() {
 $(window).on('load', function() {
 	 setTimeout(function(){
 	   $('#subscribeModal').modal('show');
-   }, 4000);
+   }, 7000);
    setTimeout(function(){
 	   $('.subscribeModal-lg').modal('show');
-   }, 5000);
+   }, 10000);
 });
 
 
